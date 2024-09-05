@@ -1,5 +1,8 @@
 package com.tnsf.day4.AccessModifier;
 
+
+
+
 public class Base {
 	/*
 	 * Declaring default, public, private and protected variables 
@@ -25,7 +28,8 @@ public class Base {
 		System.out.println("Public Variable : "+varPublic);
 	}
 	
-	private void methodPrivate()
+	
+	private void methodprivate()
 	{
 		System.out.println("Private access Base class");
 		System.out.println("Private Variable : "+varPrivate);
